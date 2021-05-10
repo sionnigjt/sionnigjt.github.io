@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>SION_HOME</title>
+    <url>/2021/05/10/hello-world/</url>
+    <content><![CDATA[<p><strong>初始化界面</strong></p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>markdown的使用</title>
+    <url>/2021/05/11/learn-Markdown/</url>
+    <content><![CDATA[<p>简介：记录本人markdown的使用,格式为代码在前列子在后</p>
+<ol>
+<li><h3 id="标题语法"><a href="#标题语法" class="headerlink" title="标题语法"></a>标题语法</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="comment"># 标题语法</span></span><br><span class="line">&lt;h1&gt;标题语法&lt;/h1&gt;</span><br><span class="line"><span class="comment">#的个数等于h后面的位数</span></span><br></pre></td></tr></table></figure>
+<!-- # 标题语法
+<h1>标题语法</h1> --></li>
+<li><h3 id="创建段落"><a href="#创建段落" class="headerlink" title="创建段落"></a>创建段落</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">这是个段落，有点长</span><br><span class="line">直接换行不接空格</span><br></pre></td></tr></table></figure></li>
+<li><h3 id="强调语法"><a href="#强调语法" class="headerlink" title="强调语法"></a>强调语法</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">原句：这是个**强调句**</span><br></pre></td></tr></table></figure>
+<p>原句：这是个<strong>强调句</strong></p>
+</li>
+<li><h3 id="引用语法"><a href="#引用语法" class="headerlink" title="引用语法"></a>引用语法</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">&gt;单引用加</span><br><span class="line">&gt;&gt;嵌套引用</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>单引用加</p>
+<blockquote>
+<p>嵌套引用</p>
+</blockquote>
+</blockquote>
+</li>
+<li><h3 id="列表语法"><a href="#列表语法" class="headerlink" title="列表语法"></a>列表语法</h3><ol>
+<li><h4 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1.加空格，需以一开头，后续数字不做要求</span><br></pre></td></tr></table></figure></li>
+<li><h4 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">+-*加空格</span><br></pre></td></tr></table></figure></li>
+<li><h4 id="缩进列表"><a href="#缩进列表" class="headerlink" title="缩进列表"></a>缩进列表</h4><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">内部加空格即可，一般用tab</span><br></pre></td></tr></table></figure></li>
+</ol>
+</li>
+<li><h3 id="分割线语法"><a href="#分割线语法" class="headerlink" title="分割线语法"></a>分割线语法</h3></li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">---或者***或者——————</span><br></pre></td></tr></table></figure>
+<ol start="7">
+<li><h3 id="链接语法"><a href="#链接语法" class="headerlink" title="链接语法"></a>链接语法</h3></li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">[百度](www.baidu.com  <span class="string">&quot;百度一下，你就知道&quot;</span>)</span><br><span class="line">&lt;wwww.baidu.com&gt;</span><br><span class="line">*[百度](www.baidu.com  <span class="string">&quot;百度一下，你就知道&quot;</span>)*</span><br></pre></td></tr></table></figure>
+<p><a href="www.baidu.com" title="百度一下，你就知道">百度</a><br> &lt;w<a href="http://www.baidu.com&gt;/">www.baidu.com&gt;</a><br> <em><a href="www.baidu.com" title="百度一下，你就知道">百度</a></em></p>
+<ol start="7">
+<li><h3 id="图片语法"><a href="#图片语法" class="headerlink" title="图片语法"></a>图片语法</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">![图片](链接 <span class="string">&quot;代替文本&quot;</span>)</span><br></pre></td></tr></table></figure>
+<p><img src="https://img.zcool.cn/community/01c8f15aeac135a801207fa16836ae.jpg@1280w_1l_2o_100sh.jpg" alt="图片" title="测试图片"></p>
+</li>
+<li><p>###转义字符</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">\加任意特殊字符</span><br></pre></td></tr></table></figure>
+<p>*</p>
+</li>
+</ol>
+]]></content>
+  </entry>
+</search>
