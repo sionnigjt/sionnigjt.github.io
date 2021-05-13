@@ -66,14 +66,14 @@
   <entry>
     <title>hexo中html资源布置</title>
     <url>/2021/05/10/hexo%E4%B8%ADhtml%E8%B5%84%E6%BA%90%E5%B8%83%E7%BD%AE/</url>
-    <content><![CDATA[<h1 id="在hexo中部署html"><a href="#在hexo中部署html" class="headerlink" title="在hexo中部署html"></a>在hexo中部署html</h1><ol>
+    <content><![CDATA[<h3 id="在hexo中部署html"><a href="#在hexo中部署html" class="headerlink" title="在hexo中部署html"></a>在hexo中部署html</h3><ol>
 <li>先在hexo根目录下找到source文件<br><img src="https://i.postimg.cc/nzzkbz6G/2021-05-10-221726.jpg" alt="事例1"></li>
 <li>创建自定义目录，如hide文件夹,在hide目录下创建工作项目，如login，并在login中导入资源文件<br><img src="https://i.postimg.cc/Yq9Tt2w0/2021-05-10-222223.jpg" alt="事例2"></li>
 </ol>
-<h1 id="使html被忽略编译"><a href="#使html被忽略编译" class="headerlink" title="使html被忽略编译"></a>使html被忽略编译</h1><pre><code>1. 进入在hexo根目录下的配置文件，搜索skip,添加忽略文件夹或文件
-![事例3](https://i.postimg.cc/YqT439rm/2021-05-10-222758.jpg)
-2. 注意忽略文件夹及其以下是用/**,只忽略文件夹用/*,只忽略文件用文件名
-</code></pre>
-<h1 id="重新编译即可运行"><a href="#重新编译即可运行" class="headerlink" title="重新编译即可运行"></a>重新编译即可运行</h1>]]></content>
+<h3 id="使html被忽略编译"><a href="#使html被忽略编译" class="headerlink" title="使html被忽略编译"></a>使html被忽略编译</h3><ol>
+<li>进入在hexo根目录下的配置文件，搜索skip,添加忽略文件夹或文件<br><img src="https://i.postimg.cc/YqT439rm/2021-05-10-222758.jpg" alt="事例3"></li>
+<li>注意忽略文件夹及其以下是用/**,只忽略文件夹用/*,只忽略文件用文件名</li>
+</ol>
+<h3 id="重新编译即可运行"><a href="#重新编译即可运行" class="headerlink" title="重新编译即可运行"></a>重新编译即可运行</h3>]]></content>
   </entry>
 </search>
