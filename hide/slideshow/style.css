@@ -1,0 +1,50 @@
+#counter{
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+#list{
+    width: 3600px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+}
+#list img{
+    width: 600px;
+    height: 300px;
+    float: left;
+}
+.arrow{
+    position: absolute;
+    top:110px;
+    text-decoration: none;
+    z-index: 2;
+    display: none;
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 39px;
+    text-align: center;
+    color: #fff;
+    background-color:rgba(0,0,0,1);
+    cursor: pointer;
+}
+.arrow:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+/*鼠标滑动到屏幕时触发，使左右耳朵显示出来*/
+#counter:hover .arrow{display: block;}  
+#pre{left:20px;}    /*左耳朵*/
+#next{right:20px;}  /*右耳朵*/
+#list{transition: left 1s;}
+.list{transition: left 0.1s;}
+body{
+    display: flex;
+   align-content: center;
+   justify-content: center;
+}
