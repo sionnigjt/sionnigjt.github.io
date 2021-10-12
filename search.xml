@@ -180,8 +180,8 @@ length: 3
 ]]></content>
   </entry>
   <entry>
-    <title></title>
-    <url>/2021/10/10/%E8%8A%82%E6%B5%81%E5%92%8C%E9%98%B2%E6%8A%96/</url>
+    <title>进阶知识点</title>
+    <url>/2021/10/12/%E8%8A%82%E6%B5%81%E5%92%8C%E9%98%B2%E6%8A%96/</url>
     <content><![CDATA[<h2 id="节流"><a href="#节流" class="headerlink" title="节流"></a>节流</h2><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">定义:某个函数在一定时间间隔内（例如 3 秒）只执行一次，在这 3 秒内 无视后来产生的函数调用请求，也不会延长时间间隔</span><br></pre></td></tr></table></figure>
 
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">throttle</span>(<span class="params">fn, ...str</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">let</span> isEnd = <span class="literal">true</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (!isEnd) <span class="keyword">return</span>;</span><br><span class="line">        isEnd = <span class="literal">false</span></span><br><span class="line">        <span class="built_in">setTimeout</span>(<span class="function">() =&gt;</span> &#123;</span><br><span class="line">            fn.apply(<span class="built_in">this</span>, str)</span><br><span class="line">            isEnd = <span class="literal">true</span></span><br><span class="line">        &#125;, <span class="number">2000</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
